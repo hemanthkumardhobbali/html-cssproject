@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.banner {
+    background-image: url(./allimages/home-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(66, 63, 63);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    height: 50px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.button1 {
+    border: solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-left: 710px;
+    width: 30px;
+
+}
+
+.heading {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(30, 167, 176);
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.preview-img {
+    width: 35%;
+}
+
+.preview-content {
+    width: 35%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+.button {
+    display: inline;
+    border: solid rgb(30, 167, 176);
+    color: rgb(30, 167, 176);
+    border-radius: 30px;
+    padding: 5px 45px;
+    width: 30px;
+    float: right;
+
+}
+
+
+.detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.detail-img {
+    width: 35%;
+}
+
+.detail-content {
+    width: 35%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Read {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.Read-img {
+    width: 35%;
+}
+
+.Read-content {
+    width: 35%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gallery {
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery-content{
+    text-align: center;
+}
+
+.gallery-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.contact {
+    background-color: whitesmoke;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.heading-cnt {
+    color: rgb(30, 167, 176);
+}
+
+.contact-buttom {
+    text-align: center;
+    color: darkgray;
+}
+
+.form {
+    border: none;
+    padding: 10px 30px;
+
+}
